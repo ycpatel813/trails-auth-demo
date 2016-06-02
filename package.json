@@ -1,0 +1,55 @@
+{
+  "name": "trails-auth-demo",
+  "version": "0.0.0",
+  "description": "Trails Authentication demo with mongoose ORM",
+  "homepage": "http://www.trailsjs.io",
+  "author": {
+    "name": "Yogesh",
+    "email": "yogi@jsbot.io",
+    "url": "www.jsbot.io"
+  },
+  "main": "index.js",
+  "keywords": [
+    "",
+    "trails",
+    "trailsjs"
+  ],
+  "dependencies": {
+    "colors": "^1.1.2",
+    "express": "^5.0.0-alpha.2",
+    "jsonwebtoken": "^7.0.0",
+    "lodash": "^4.13.1",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "trailpack-core": "^1.0.0-beta-3",
+    "trailpack-express": "^1.0.1",
+    "trailpack-mongoose": "^0.2.2",
+    "trailpack-passport-auth": "0.0.4",
+    "trailpack-repl": "^1.0.0-beta-3",
+    "trailpack-router": "^1.0.0-beta-4",
+    "trails": "^1.0.0-beta-1",
+    "trails-controller": "^1.0.0-beta-2",
+    "trails-model": "^1.0.0-beta-2",
+    "trails-policy": "^1.0.1",
+    "trails-service": "1.0.0-beta-2",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.8",
+    "eslint-config-trails": "latest",
+    "mocha": "^2.4",
+    "supertest": "^1.2"
+  },
+  "scripts": {
+    "test": "eslint . && mocha"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  },
+  "repository": "ycpatel813/trail-auth-demo",
+  "license": "MIT"
+}
