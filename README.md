@@ -10,6 +10,12 @@ Just clone or Download zip extract and go to directory and use
  $ npm install
 ```
 
+## Done
+
+```sh
+$ npm start
+```
+
 ## Usage and Route
  Now you are ready.
 
