@@ -32,7 +32,7 @@ module.exports = {
       //migration
       migrate: 'create',
       // Mongodb URI
-      uri: 'mongodb://serv.jsbot.io:27017/Auth',
+      uri: 'mongodb://localhost:27017/Auth',
       // Mongoose connection options
       options: {
 
